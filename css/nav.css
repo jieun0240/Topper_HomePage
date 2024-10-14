@@ -1,0 +1,36 @@
+.navbar {
+    position: relative; /* fixed를 제거하여 section4에 자연스럽게 배치 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 10%;
+    background-color: white;
+    color: white;
+    z-index: 1000; 
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(160, 160, 160, 0.5);
+    white-space: nowrap;
+}
+.navbar nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-left: 600%;
+}
+.navbar nav ul li {
+    margin: 0 15px;
+    position: relative;
+    top: 5px;
+}
+.navbar nav ul li a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+/* main {
+    padding-top: 60px; 
+} */
