@@ -1,0 +1,56 @@
+[
+    {
+        "name": "양현서",
+        "image": "공백",
+        "class": "뉴미디어디자인과",
+        "mbti": "MBTI_ENFP",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    },
+    {
+        "name": "정민경",
+        "image": "공백",
+        "class": "뉴미디어소프트웨어과",
+        "mbti": "MBTI_INTP",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    },
+    {
+        "name": "나지은",
+        "image": "공백",
+        "class": "뉴미디어웹솔루션과",
+        "mbti": "MBTI_INFP",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    },
+    {
+        "name": "왕현주",
+        "image": "공백",
+        "class": "뉴미디어웹솔루션과",
+        "mbti": "MBTI_ISTP",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    },
+    {
+        "name": "안채연",
+        "image": "공백",
+        "class": "뉴미디어소프트웨어과",
+        "mbti": "MBTI_INFP",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    },
+    {
+        "name": "장연두",
+        "image": "공백",
+        "class": "뉴미디어디자인과",
+        "mbti": "MBTI_INTJ",
+        "shcool": "공백",
+        "award": "공백",
+        "number": 2
+    };
+]
