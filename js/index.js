@@ -36,3 +36,34 @@ window.onload = function() {
     startSmoothScrollAnimation('.scrolling-text5', 0.8); // 다섯 번째 텍스트 열
     startSmoothScrollAnimation('.scrolling-text6', 0.5); // 다섯 번째 텍스트 열
 };
+
+// function topperScrollAnimation(selector, speed) {
+//     elements.forEach(to => {
+//         const clone = to.cloneNode(true);
+//         to.parentElement.appendChild(clone);
+
+//         let position = 0;
+
+//         function animateScroll() {
+//             position -= speed; // 일정한 속도로 왼쪽으로 이동
+
+//             // 원본 텍스트 길이만큼 이동 시 위치를 초기화
+//             if (position <= -to.offsetWidth) {
+//                 position = 0;
+//             }
+
+//             // 두 개의 텍스트가 자연스럽게 이어지도록 설정
+//             to.style.transform = `translateX(${position}px)`;
+//             clone.style.transform = `translateX(${position + to.offsetWidth}px)`; 
+
+//             requestAnimationFrame(animateScroll); // 애니메이션 프레임 요청
+//         }
+
+//         requestAnimationFrame(animateScroll); // 애니메이션 시작
+        
+//     });
+
+//     window.onload = function() {
+//         topperScrollAnimation('scrolling-topper1', 0.5); // 첫 번째 텍스트 열
+//     };
+// }
