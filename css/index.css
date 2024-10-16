@@ -6,69 +6,56 @@
     position: relative; /* 위치 설정 */
 }
 
-/* 무한 스크롤 애니메이션 */
 .scrolling-text1, .scrolling-text2, .scrolling-text3,
 .scrolling-text4, .scrolling-text5, .scrolling-text6 {
     white-space: nowrap; /* 줄바꿈 방지 */
     overflow: hidden;
     text-overflow: ellipsis; /* 넘치는 텍스트에 말줄임표 */
     border-radius: 50px; /* 둥근 테두리 */
-    font-size: 20px; /* 글자 크기 */
-    padding: 10px; /* 여백 */
+    font-size: 27px; /* 글자 크기 */
+    padding: 15px; /* 여백 */
     text-align: center; /* 텍스트 정렬 */
     display: flex; /* flex 사용 */
     justify-content: center; /* 가운데 정렬 */
     align-items: center; /* 가운데 정렬 */
-    margin: 5px; /* 간격 추가 */
+    margin: 10px; /* 간격 추가 */
     position: relative; /* 위치 설정 */
 }
 
-/* 각 열에 대한 애니메이션 속도 조정 */
-.scrolling-text1, .scrolling-text4 {
-    animation: scrollText 15s linear infinite; /* 열 1과 4의 애니메이션 */
-}
-
-.scrolling-text2, .scrolling-text5 {
-    animation: scrollText 12s linear infinite; /* 열 2와 5의 애니메이션 */
-}
-
-.scrolling-text3, .scrolling-text6 {
-    animation: scrollText 15s linear infinite; /* 열 3과 6의 애니메이션 */
-}
-
-/* 홀수 텍스트 색상 */
-.scrolling-text1, .scrolling-text3, .scrolling-text5 {
-    background-color: #0136DE; /* 홀수 열 배경색 */
-    color: white; /* 텍스트 색상 */
-}
-
-/* 짝수 텍스트 색상 */
-.scrolling-text2, .scrolling-text4, .scrolling-text6 {
+.scrolling-text1, .scrolling-text2, .scrolling-text3, .scrolling-text4, .scrolling-text5, .scrolling-text6 {
     background-color: #F0F0F0; /* 짝수 열 배경색 */
     color: black; /* 텍스트 색상 */
 }
 
-/* 스크롤 애니메이션 정의 */
-@keyframes scrollText {
-    0% {
-        transform: translateX(100%); /* 오른쪽에서 시작 */
-    }
-    100% {
-        transform: translateX(-100%); /* 왼쪽으로 이동 */
-    }
+.scrolling-text1.blue, .scrolling-text2.blue, .scrolling-text3.blue, .scrolling-text4.blue, .scrolling-text5.blue, .scrolling-text6.blue {
+    background-color: #0136DE !important;
+    color: white !important;
 }
 
-#section2 {
+/* 스크롤 애니메이션 정의 */
+
+
+/* #section2 {
     background: #0136DE;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+#section2 {
+    background-color: #0136DE;
 }
 
 .scrolling-topper1 {
     background-color: white;
     color: #0136DE;
 }
+
+.speech-bubble {
+    background-color: white;
+    border-radius: 50px;
+}
+
 .scrolling-topper2 {
     color: white;
 }
